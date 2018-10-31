@@ -1,4 +1,4 @@
-package com.robin.springboot.demo.ExportExcel;
+package com.robin.springboot.demo.java_ExportExcel;
 
 import org.apache.poi.hssf.usermodel.HSSFWorkbook;
 import org.apache.poi.ss.usermodel.Cell;
@@ -8,8 +8,6 @@ import org.apache.poi.ss.usermodel.Workbook;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 
 import java.io.*;
-import java.util.ArrayList;
-import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
@@ -100,9 +98,9 @@ public class ExportExcelUtils {
     public static Workbook getWorkbok(File file) throws IOException {
         Workbook wb = null;
         FileInputStream in = new FileInputStream(file);
-        if (file.getName().endsWith(EXCEL_XLS)) {     //ExportExcel&nbsp;2003
+        if (file.getName().endsWith(EXCEL_XLS)) {     //java_ExportExcel&nbsp;2003
             wb = new HSSFWorkbook(in);
-        } else if (file.getName().endsWith(EXCEL_XLSX)) {    // ExportExcel 2007/2010
+        } else if (file.getName().endsWith(EXCEL_XLSX)) {    // java_ExportExcel 2007/2010
             wb = new XSSFWorkbook(in);
         }
         return wb;
