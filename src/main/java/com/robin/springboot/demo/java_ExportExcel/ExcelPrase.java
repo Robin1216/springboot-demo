@@ -9,9 +9,9 @@ import java.util.*;
 public class ExcelPrase {
     public static void main(String[] args) {
         ExcelPrase ex = new ExcelPrase();
-        String fileName = "tp0.01 0.960.sif";
-        String pathName = "F:\\曲正\\" + fileName + ".txt";
-        String excelPathName = "F:\\曲正\\" + fileName + ".xls";
+        String fileName = "newtp1.sif";
+        String pathName = "D:\\曲正\\20181105\\" + fileName + ".txt";
+        String excelPathName = "D:\\曲正\\20181105\\" + fileName + ".xls";
 
         ex.deal(fileName, pathName, excelPathName);
     }

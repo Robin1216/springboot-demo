@@ -26,6 +26,7 @@ public class ExportExcelUtil {
         // 保存到计算机相应路径
         try {
             book.write(new FileOutputStream(excelFilePath));
+            System.out.println("excelFilePath" + excelFilePath);
         } catch (IOException e) {
             System.out.println("写入数据错误");
             e.printStackTrace();
