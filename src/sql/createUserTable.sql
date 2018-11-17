@@ -1,4 +1,5 @@
-use robin_test;
+CREATE DATABASE IF NOT EXISTS robin_test;
+USE robin_test;
 
 DROP TABLE IF EXISTS t_user;
 CREATE TABLE t_user (

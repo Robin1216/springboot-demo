@@ -15,5 +15,14 @@
 ## thymeleaf
 ## bootstrap
 
-# Java学习
+#Java学习
+## 导出数据到 Excel 表格中
+### 读取、修改配置文件
+  * 多种方式读取配置文件
+  * 修改保存配置文件
+  * 配置分类处理
+### 导出数据到.xsl、.xslx、.cvs 格式
 ## 设计模式
+### 适配器模式 adapter
+### 装饰者模式 facade
+
