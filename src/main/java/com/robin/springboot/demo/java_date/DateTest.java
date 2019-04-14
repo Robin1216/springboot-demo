@@ -1,5 +1,7 @@
 package com.robin.springboot.demo.java_date;
 
+import org.apache.commons.lang3.StringUtils;
+
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
@@ -10,11 +12,16 @@ public class DateTest {
 //        String endDateStr = "2019-01-01";
 //        String dealDateStr = "2018-12-14";
 //        System.out.println(getStartDateStrForRound(startDateStr, endDateStr, dealDateStr));
-
-        System.out.println(getLatestBookTimeForAhead(1, 60));
+        StringBuilder sb = new StringBuilder();
+        System.out.println("s");
+        System.out.println(sb);
+        System.out.println(sb.toString());
+        System.out.println(StringUtils.isNotEmpty(sb.toString()));
+        System.out.println("b");
+//        System.out.println(getLatestBookTimeForAhead(1, 60));
     }
 
-    private static void isRang(Date date,Date star){
+    private static void isRang(Date date, Date star) {
 
     }
 
